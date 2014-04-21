@@ -1,11 +1,9 @@
 {
   "development":{
 			"connector":[
-				 {"id":"connector-server-1", "host":"127.0.0.1", "port":4050, "clientPort": 3050, "frontend": true},
 				 {"id":"connector-server-2", "host":"127.0.0.1", "port":4051, "clientPort": 3051, "frontend": true}
 			 ],
 			"feedback":[
-				 {"id":"feedback-server-1", "host":"127.0.0.1", "port":6050},
 				 {"id":"feedback-server-3", "host":"127.0.0.1", "port":6052}
 			],
 			"gate":[
